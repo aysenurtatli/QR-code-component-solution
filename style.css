@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --title-color: hsl(218, 44%, 22%);
+  --text-color: hsl(216, 15%, 48%);
+  --bg-color: hsl(212, 45%, 89%);
+  --white-color: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.content {
+  width: 375px;
+  padding: 20px;
+  border-radius: 17px;
+
+  background-color: var(--white-color);
+  text-align: center;
+}
+
+.img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h2 {
+  font-weight: 700;
+  color: var(--title-color);
+  margin: 20px 10px;
+}
+
+p {
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 15px;
+  margin: 20px 35px;
+}
